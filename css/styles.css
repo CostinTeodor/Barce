@@ -1,0 +1,312 @@
+body {
+  background: url(../images/camp_nou.jpg), #004d98;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-size: 3em;
+  color: #edbb00;
+
+  /* -moz-transform: scale(0.75, 0.75); Moz-browsers */
+  /* zoom: 0.75; /* Other non-webkit browsers 
+    zoom: 75%; Webkit browsers */
+}
+
+@media screen and (min-width: 1300px) {
+  body {
+    -moz-transform: scale(0.5, 0.5);
+    /*Moz-browsers*/
+    zoom: 0.5;
+    /*Other non-webkit browsers */
+    zoom: 50%;
+    /*Webkit browsers*/
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  body {
+    -moz-transform: scale(0.75, 0.75);
+    /*Moz-browsers*/
+    zoom: 0.75;
+    /*Other non-webkit browsers */
+    zoom: 75%;
+    /*Webkit browsers*/
+  }
+}
+
+li {
+  margin: auto 2rem;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 2px;
+  color: black;
+}
+
+h1 {
+  font-size: 1.2em;
+}
+
+b {
+  color: #edbb00;
+}
+
+span {
+  font-size: 2.6rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+/* CLASSES */
+
+.valLot {
+  float: right;
+  margin-right: 3rem;
+}
+
+.brSize {
+  line-height: 2rem;
+  ;
+}
+
+.brSize2 {
+  line-height: 1rem;
+}
+
+.myNavbar {
+  background-color: #a50044;
+  font-family: "F.C. BARCELONA", sans-serif;
+}
+
+.logo {
+  width: 5rem;
+}
+
+.about {
+  margin-top: 5rem;
+}
+
+.arrow {
+  display: inline-block;
+}
+
+.tickets {
+  padding: 100px 100px;
+  background-color: rgb(199, 199, 200, 0.9);
+  text-align: center;
+  margin: 200px 500px auto;
+  border-radius: 20px;
+  -webkit-text-stroke: 1px black;
+  font-size: 1.5em;
+  will-change: transform;
+
+}
+
+.game {
+  margin: auto 290px;
+
+}
+
+.game img {
+  height: 8rem;}
+
+.team2 {
+  float: right;
+ 
+}
+
+.textDreapta {
+  display: inline-block;
+  font-size: 2.2rem;
+  color: black;
+  /* float: left; */
+ 
+
+}
+
+/* .vs {
+  font-size: 2.2rem;
+  color: black;
+  display: inline-block;
+  padding-right:50px;
+} */
+
+.invizibil {
+  display: none;
+}
+
+.umplutura {
+  visibility: hidden;
+}
+
+.first_team {
+  -webkit-text-stroke: 1.5px black;
+  font-size: 1.3em;
+  background-color: white;
+  padding: 100px 100px;
+  background-color: rgb(199, 199, 200, 0.9);
+  text-align: justify;
+  margin: 200px 300px auto;
+  border-radius: 20px;
+  -webkit-text-stroke: 0.7px black;
+  font-size: 1.5em;
+  color: black;
+}
+
+.first_team h1 {
+  color: #edbb00;
+  text-align: center;
+}
+
+.first_team .about {
+  margin-top: 5rem;
+}
+
+.first_team img {
+  max-width: 640px;
+  max-height: 400px;
+}
+
+.team {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.type {
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  font-size: 2.5rem;
+}
+
+.first_team img {
+  padding-right: 100px;
+}
+
+.contact {
+  background-color: #004d98;
+  text-align: center;
+  padding-top: 25px;
+  height: 2em;
+  color: white;
+}
+
+.follow {
+  font-size: 1.7rem;
+}
+
+.contact img {
+  width: 30px;
+}
+
+.contacts {
+  margin: auto 800px auto;
+}
+
+.about .row {
+  padding-left: 20rem;
+}
+
+.follow p {
+  display: inline-block;
+}
+
+
+a.arrow {
+  color: black;
+  display: inline;
+}
+
+a:hover,
+.s-link {
+  color: #edbb00;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.arrow[onclick] {
+  cursor: pointer
+}
+
+.contactInfo {
+  background-color: #004d98;
+  font-size: 1rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.detalii {
+
+  padding-left: 200px;
+}
+
+.detalii2 {
+  margin: auto 700px;
+  padding-left: 100px;
+  text-align: justify;
+
+}
+
+.info {
+  font-size: 1.4rem;
+}
+
+.hoverOp {
+  background: black;
+  width: 540px;
+
+}
+
+.team img {
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.team img:hover {
+  opacity: 0.6;
+
+}
+
+/* ID */
+
+#data {
+  text-align: center;
+  font-size: 0.7em;
+  color: black;
+}
+
+#matches {
+  height: 1px;
+}
+
+#players {
+  height: 1px;
+}
+
+#header1 {
+  text-align: center;
+  margin-bottom: 60px;
+  color: #edbb00;
+}
+
+#contact {
+  height: 1px;
+}
+
+#arrow {
+  display: inline-block;
+}
